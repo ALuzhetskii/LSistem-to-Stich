@@ -1,6 +1,9 @@
 import turtle
 import math
-
+"""
+Пытаюсь написать программу для перевода векторного файла полученного из рисунка фрактала в формат файла вышивки
+для вышивальной машины
+"""
 class LSystem2D:
     def __init__(self, t, axiom, width, lenght, angle):
         self.axiom = axiom
